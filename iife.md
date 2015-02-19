@@ -1,4 +1,4 @@
-Immediately-invoked function expression
+﻿Immediately-invoked function expression
 =======================================
 
 - Toujours faire des fichiers javascript qui utilisent les IIFE.
@@ -8,7 +8,7 @@ Un IIFE est le code suivant :
 (function() {
 	"use strict";
 
-	// Inserer le code ici.
+	// Insérer le code ici.
 })();
 
 ```

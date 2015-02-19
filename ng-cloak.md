@@ -1,4 +1,4 @@
-ng-cloak
+﻿ng-cloak
 ========
 
 - Pour que ```ng-cloak``` soit utilisable il faut inclure dans le ```<head>``` le fichier ```angular-csp.css```.
