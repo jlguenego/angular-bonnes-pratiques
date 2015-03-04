@@ -7,7 +7,7 @@
 Si on doit utiliser plus de 3 arguments on applique l'une des techniques suivantes :
 
 - Mettre les arguments dans un objet.
-- S'il s'agit d'injections dans angular, recourir au service $injector.
+- S'il s'agit d'injections dans AngularJS, recourir au service ```$injector```.
 
 Exemple 1
 ---------
