@@ -39,12 +39,11 @@ app.controller('authentication.MainCtrl', [ '$scope', '$log', '$location', '$roo
 ```
 devient :
 ```javascript
-app.controller('authentication.MainCtrl', [ '$injector', function($injector) {
-	$scope = $injector.get("$scope");
-	$log = $injector.get("$log");
-	$location = $injector.get("$location");
-	$rootScope = $injector.get("$rootScope");
-	$window = $injector.get("$window");
+app.controller('authentication.MainCtrl', [ '$scope', '$injector', function($scope, $injector) {
+	var $log = $injector.get("$log");
+	var $location = $injector.get("$location");
+	var $rootScope = $injector.get("$rootScope");
+	var $window = $injector.get("$window");
 	...
 }]);
 ```
