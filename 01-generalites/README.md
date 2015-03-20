@@ -15,35 +15,50 @@ assembleur qu’en Java.
 
 Pour répondre à cette question, on peut prendre l’exemple du système de
 robinetterie.
-Imaginons que l’on doive remplir une bassine d’eau à environ T = 35 degré selon
-un certain débit D pour donner un bain à un nourrisson, à l’aide d’une vieille
-robinetterie équipée de deux robinets, l’un pour l’eau chaude à température Tc,
-et l’autre pour l’eau froide Tf.
+Imaginons que l’on doive remplir une bassine d’eau à environ ```T = 35``` degré
+selon un certain débit ```D``` pour donner un bain à un nourrisson, à l’aide
+d’une
+vieille robinetterie équipée de deux robinets, l’un pour l’eau chaude à
+température ```Tc```, et l’autre pour l’eau froide ```Tf```.
 Pour cela, il faut ouvrir les deux robinets de manière à ce que la somme des
-débits Dc + Df soit égale au débit voulu D.
-Et en plus, il faut que la température résultante soit celle recherchée : (Dc*Tc
-+ Df*Tf)/(Tc+Tf) = T.
-Faut avouer que ce n’est pas facile. Pourquoi ? L’ergonome va vous répondre que
-c’est parce que les variables physiques du système (en l’occurrence Dc et Df) ne
-coïncident pas avec les variables psychologiques de l’utilisateur (en
-l’occurrence le débit D et la température T voulue).
+débits ```Dc + Df``` soit égale au débit voulu ```D```.
+Et en plus, il faut que la température résultante soit celle recherchée :
+```(Dc*Tc + Df*Tf)/(Tc+Tf) = T```.
+
+Faut avouer que ce n’est pas facile.
+
+Pourquoi ?
+
+L’ergonome va vous répondre que c’est parce que les *variables
+physiques* du système (en l’occurrence ```Dc``` et ```Df```) ne
+coïncident pas avec les *variables psychologiques* de l’utilisateur (en
+l’occurrence le débit ```D``` et la température ```T``` voulue).
 Un robinet avec un mitigeur et muni d’une manette qu’il faut soulever pour
 augmenter le débit et faire pivoter pour augmenter ou diminuer la température
 est jugée nettement plus ergonomique, car elle fait davantage coïncider les
 variables psychologiques et physiques.
+
 Le mathématicien, lui, voit cela comme faire des changements de base
 (diagonalisation de matrice, inversion de matrice).
+
 Eh bien cela est pareil entre le langage machine, et le langage Java : les
 variables physiques du langage machine sont plus éloignées des variables
 psychologiques que les variables physiques du langage Java.
-En d’autre terme, l’ergonome dit aussi que la distance sémantique réalisée lors
+
+En d’autre terme, l’ergonome dit aussi que la *distance sémantique* réalisée
+lors
 de la lecture ou l’écriture de code assembleur est plus importante que la
-distance sémantique réalisée pour le langage Java.
-Il y a aussi la distance articulatoire à diminuer : la distance articulatoire
-consiste en tous les petits gestes à effectuer, pour écrire ou lire du code. Par
-exemple, le nombre de caractères  à saisir, la longueur d’un texte peut
+*distance sémantique* réalisée pour le langage Java.
+
+Il y a aussi la *distance articulatoire* à diminuer : la distance
+articulatoire d'exécution respectivement d'évaluation
+consiste en tous les petits gestes à effectuer, pour écrire respectivement lire
+du code.
+
+Par exemple, le nombre de caractères  à saisir, la longueur d’un texte peut
 rallonger la distance articulatoire.
-Ce qu’il faut retenir :
+
+**Ce qu’il faut retenir :**
 Une bonne pratique consiste à mettre en place une disposition visant à diminuer
 le plus possible la distance sémantique et articulatoire lors des phases de
 lecture et d’écriture du code.
@@ -65,7 +80,7 @@ de temps possible pour ramener une vision si le programme « marche » ou pas.
 On dit qu’il faut minimiser au maximum le temps de la boucle incrémentale «
 développe & test ».
 
-Ce qu’il faut retenir :
+**Ce qu’il faut retenir :**
 Toujours faire un test unitaire après une modification. Et donc mettre en place
 les outils permettant de ne pas rendre « pénible » le test unitaire.
 
@@ -79,7 +94,7 @@ bottlenecks », c’est-à-dire aux parties du code les plus critiques, et
 UNIQUEMENT celle-là. Souvent, un problème de performance se règle par la
 modification de quelques lignes de code seulement.
 
-Ce qu’il faut retenir :
+**Ce qu’il faut retenir :**
 La lisibilité du code est plus importante sur un projet que ses performances.
 « Sinon, codez en assembleur ! »
 
@@ -115,7 +130,7 @@ Il est important de « commiter » très souvent, à chaque fois que le logiciel
 retesté. C’est la boucle « analyse, pull, développe, test, commit, push ». Un
 développeur doit en moyenne « commiter » une fois par heure.
 
-Ce qu’il faut retenir :
+**Ce qu’il faut retenir :**
 Utiliser un logiciel de gestion de version et d’historique, et « commiter » à
 chaque modification, une fois celle-ci testée et considérée comme stable.
 
