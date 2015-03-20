@@ -18,6 +18,7 @@ assembleur qu’en Java.
 Pour répondre à cette question, on peut prendre **l’exemple du système de
 robinetterie**.
 
+<img src="mauvais.jpg" alt="Robinet traditionnel" align="middle" />
 
 Imaginons que l’on doive remplir une bassine d’eau à environ ```T = 35``` degré
 selon un certain débit ```D``` pour donner un bain à un nourrisson, à l’aide
