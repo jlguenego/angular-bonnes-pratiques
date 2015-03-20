@@ -18,7 +18,9 @@ assembleur qu’en Java.
 Pour répondre à cette question, on peut prendre **l’exemple du système de
 robinetterie**.
 
-<img src="mauvais.jpg" alt="Robinet traditionnel" align="middle" />
+<style>img {padding: 20px;margin: auto;display: block;}</style>
+
+<img src="mauvais.jpg" alt="Robinet traditionnel" />
 
 Imaginons que l’on doive remplir une bassine d’eau à environ ```T = 35``` degré
 selon un certain débit ```D``` pour donner un bain à un nourrisson, à l’aide
@@ -39,6 +41,8 @@ L’ergonome va vous répondre que c’est parce que les **variables
 physiques** du système (en l’occurrence ```Dc``` et ```Df```) ne
 coïncident pas avec les **variables psychologiques** de l’utilisateur (en
 l’occurrence le débit ```D``` et la température ```T``` voulue).
+
+<img src="bon.jpg" alt="Robinet mitigeur" />
 
 Un **robinet avec un mitigeur** et muni d’une manette qu’il faut soulever pour
 augmenter le débit et faire pivoter pour augmenter ou diminuer la température
