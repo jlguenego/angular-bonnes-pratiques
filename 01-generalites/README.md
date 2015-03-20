@@ -18,7 +18,13 @@ assembleur qu’en Java.
 Pour répondre à cette question, on peut prendre **l’exemple du système de
 robinetterie**.
 
-<style>img {padding: 20px;margin: auto;display: block;}</style>
+<style>
+img {
+	padding: 20px;
+	margin: auto;
+	display: block;
+}
+</style>
 
 <img src="mauvais.jpg" alt="Robinet traditionnel" />
 
