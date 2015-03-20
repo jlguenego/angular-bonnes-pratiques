@@ -40,7 +40,7 @@ physiques** du système (en l’occurrence ```Dc``` et ```Df```) ne
 coïncident pas avec les **variables psychologiques** de l’utilisateur (en
 l’occurrence le débit ```D``` et la température ```T``` voulue).
 
-<img src="bon.jpg" alt="Robinet mitigeur" />
+<p align="center"><img src="bon.jpg" alt="Robinet mitigeur" /></p>
 
 Un **robinet avec un mitigeur** et muni d’une manette qu’il faut soulever pour
 augmenter le débit et faire pivoter pour augmenter ou diminuer la température
