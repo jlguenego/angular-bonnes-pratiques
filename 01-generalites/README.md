@@ -18,15 +18,8 @@ assembleur qu’en Java.
 Pour répondre à cette question, on peut prendre **l’exemple du système de
 robinetterie**.
 
-<style>
-img {
-	padding: 20px;
-	margin: auto;
-	display: block;
-}
-</style>
 
-<img src="mauvais.jpg" alt="Robinet traditionnel" />
+<img src="mauvais.jpg" alt="Robinet traditionnel" style="padding:20px;margin:auto;display:block;" />
 
 Imaginons que l’on doive remplir une bassine d’eau à environ ```T = 35``` degré
 selon un certain débit ```D``` pour donner un bain à un nourrisson, à l’aide
