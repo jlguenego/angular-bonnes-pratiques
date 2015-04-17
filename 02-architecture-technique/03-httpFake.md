@@ -8,17 +8,17 @@ Un module httpFake.js a été écrit pour l'occasion.
 Mise en oeuvre
 --------------
 
-1. Inclure le fichier javascript dans le fichier HTML :
+- Inclure le fichier javascript dans le fichier HTML :
 ```javascript
 <script type="text/javascript" src="fakeHttp.js"></script>
 ```
 
-2. Inclure le module `fakeHttp` :
+- Inclure le module `fakeHttp` :
 ```javascript
 var app = angular.module('mainApp', [ 'fakeHttp' ]); 
 ```
 
-3. Configurer le service $http pour qu'il renvoit ce que l'on veut.
+- Configurer le service $http pour qu'il renvoit ce que l'on veut.
 
 ```javascript
 window.fakeHttp = [ {
