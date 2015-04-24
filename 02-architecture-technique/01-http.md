@@ -23,6 +23,13 @@ est ignoré.
 - ```jsonExpected``` : si cet attribut est présent et valué à true, alors l'intercepteur vérifie
 que les données reçues sont au format json.
 
+Dans le cadre de l'utilisation du service $http en tant que promise, il vaut mieux utiliser les fonctions `then`, `catch` et `finally` au lieu de `success` et `error`.
+
+Note: Dans Eclipse, le vérificateur automatique de code considère `catch`
+et `finally` comme des mots clés et refuse abusivement leur nom en tant que
+propriété d'objet Javascript. Du coup, il faut utiliser les noms avec 
+`['catch']` et `['finally']`. 
+
 Exemples
 --------
 
